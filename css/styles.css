@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+
+body {
+    margin: 0%;
+    background-color: #F0EAE6;
+    /* background-color: rgba(0, 0, 0, 0.83); */
+}
+
+nav > a { 
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    background-image: url(/portfolio-faculdade/imagens/background-image.jpg);
+}
+
+nav > a:any-link {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    font-size: 15px;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+}
+
+footer > p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Story Script", sans-serif;
+    font-size: 15px;
+}
+
+p > a {
+    text-decoration: none;
+    color: rgb(210, 210, 14);
+}
+
+img#foto-perfil {
+    margin-left: 150px;
+    width: 350px;
+    border-radius: 200px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+article#sobre-mim {
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    max-width: 650px;
+    margin-top: 85px;
+}
+
+ul {
+    width: 600px;
+    margin: auto;
+    margin-top: 11vh;
+    list-style: square;
+    font-size: 40px;
+}
+
+img#logo-github {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+article > h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 45px;
+}
+
+.dark-mode {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+button {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+#contato {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.botao-enviar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.3s;
+}
+
+.botao-enviar:hover {
+    background-color: #218838;
+}
