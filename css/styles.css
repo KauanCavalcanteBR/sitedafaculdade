@@ -20,7 +20,7 @@ nav {
     padding-top: 20px;
     padding-bottom: 20px;
     text-decoration: none;
-    background-color: #51328e;
+    background-image: url(background-image.jpg);
 }
 
 nav > a:any-link {
